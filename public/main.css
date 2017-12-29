@@ -1,0 +1,7 @@
+.alert_message{
+    position: fixed;
+    top:40px;
+    right: 20px;
+    z-index: 10000;
+    display: none;
+}

@@ -1,0 +1,205 @@
+canvas {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+@font-face {
+    font-family: 'medium-content-sans-serif-font';
+    src: url('font/Roboto-Regular.ttf');
+
+}
+
+body {
+    background-color: #F5F6F6;
+    font-family: medium-content-sans-serif-font,
+    "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans",
+    Geneva, Arial, sans-serif;
+
+}
+
+.content-exchange-header {
+    border-bottom: 1px #F5F6F6 solid;
+    background-color: #FFFFFF;
+}
+
+.content-exchange-header .p-2 {
+    width: 10em;
+    height: 3.4em;
+}
+
+.content-exchange-header .p-2:nth-child(1) {
+    border-left: 1px #F5F6F6 solid;
+    border-right: 1px #F5F6F6 solid;
+}
+
+.content-exchange-header .p-2:nth-child(3) {
+    border-left: 1px #F5F6F6 solid;
+    border-right: 1px #F5F6F6 solid;
+}
+
+.content-exchange-header .p-2:nth-child(4) {
+    border-right: 1px #F5F6F6 solid;
+}
+
+.title-exchange-header {
+    color: #2D3031;
+    font-size: small;
+}
+
+.price-exchange-header {
+    color: #2D3031;
+    font-size: 18px;
+}
+
+.fa-green {
+    color: #FF5483;
+}
+
+.fa-red {
+    color: #18C46C;
+}
+
+.price-item-exchange-header {
+    color: #7D97AD;
+}
+
+.nav-menu-content {
+    background-color: #FFFFFF;
+}
+
+.border-radius-content-left {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.border-radius-content-right {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.nav-menu-content a{
+    color: #FEFEFB;
+    text-decoration: none;
+    background-color: #98c381;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.nav-menu-content .active-content:hover {
+    color: #709460;
+}
+
+/*Body*/
+
+.content-body {
+    margin-bottom: 800px;
+
+}
+
+.content-body-left-right {
+    margin-left: 3em;
+    margin-right: 3em;
+    margin-top: 2em;
+}
+
+/*left*/
+.content-left {
+
+}
+
+.content-left-margin {
+    /*margin-right: 2em;*/
+    width: 100%;
+    border-top: 1px #E4E4E4 solid;
+}
+
+.content-left-table-info {
+    margin-bottom: 2em;
+    width: 100%;
+}
+
+.content-left-text {
+    padding-left: 0px;
+    margin-left: 0px;
+    line-height: 30px;
+}
+
+.content-left-border {
+    border-top: 2px #18C46C solid;
+    width: 2em;
+}
+
+.content-left-content {
+    height: 240px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+    margin-left: 0.01em;
+}
+
+.content-left-content table {
+    font-size: 12px;
+}
+
+/*right*/
+.content-right {
+
+}
+
+.content-right-margin {
+    margin-left: 3em;
+}
+
+#canvas {
+    width: 100%;
+    align-items: center;
+}
+
+/*table tabs sell buy*/
+
+.table-sell-buy-content {
+    height: 260px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.table-sell-buy-content table {
+    font-size: 14px;
+}
+
+.content-tabs-sell-buy {
+    margin-top: 20px;
+}
+
+.title-sel-buy {
+    height: 40px;
+    width: 100%;
+    background-color: #2979ff;
+    color: white;
+    padding-left: 20px;
+    line-height: 40px;
+    margin-top: 10px;
+}
+
+.back-color-sell-buy {
+    background-color: #eeeeee;
+}
+
+.result-amount {
+    margin: 10px;
+    text-align: right;
+}
+
+.title-history {
+    height: 40px;
+    width: 100%;
+    background-color: #2979ff;
+    color: white;
+    padding-left: 20px;
+    line-height: 40px;
+    margin: 10px 0px 10px 0px;
+}
+
+.table-history {
+    height: 260px;
+}

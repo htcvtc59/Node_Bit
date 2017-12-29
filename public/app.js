@@ -1,4 +1,5 @@
-var socket = io.connect('http://localhost:3000');
+var socket = io.connect('https://app-bit-nodejs.herokuapp.com/');
+// http://localhost:3000
 
 var accountlogin = {
     acc_name: null,

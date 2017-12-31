@@ -44,7 +44,9 @@
     <script src="https://use.fontawesome.com/5bf090958b.js" type="text/javascript"></script>
     <link rel="stylesheet" href="assets/styles.css">
 
-    <script type="text/javascript" src="https://app-bit-nodejs.herokuapp.com/socket.io/socket.io.js"></script>
+    <!-- <script type="text/javascript" src="https://app-bit-nodejs.herokuapp.com/socket.io/socket.io.js"></script> -->
+    <script type="text/javascript" src="socket.io/socket.io.js"></script>
+
 
     <script src="app.js" type="text/javascript"></script>
 
@@ -355,7 +357,27 @@
                     <div class="col-9 row content-right">
                         <div class="col-12 row content-right-margin">
                             <div class="col-12 row content-right-chat">
-                                <canvas class="col-12" id="canvas"></canvas>
+                                <!-- <canvas class="col-12" id="canvas"></canvas> -->
+
+                                <!-- TradingView Widget BEGIN -->
+                                <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+                                <script type="text/javascript">
+                                    new TradingView.widget({
+                                        "width": 900,
+                                        "height": 610,
+                                        "interval": "D",
+                                        "timezone": "Etc/UTC",
+                                        "theme": "Light",
+                                        "style": "1",
+                                        "locale": "en",
+                                        "toolbar_bg": "#f1f3f6",
+                                        "enable_publishing": false,
+                                        "allow_symbol_change": true,
+                                        "hideideas": true
+                                    });
+                                </script>
+                                <!-- TradingView Widget END -->
+
                             </div>
                             <div class="col-12">
                                 <h2>

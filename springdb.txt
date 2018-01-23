@@ -1,0 +1,8 @@
+spring.datasource.url="mongodb://htcvtc59:GTj5xX7Z@ds163796.mlab.com:63796/bitweb"
+spring.datasource.username="htcvtc59"
+spring.datasource.password="GTj5xX7Z"
+spring.jpa.show-sql=false
+spring.jpa.generate-ddl=true
+spring.jpa.hibernate.ddl-auto=update
+
+"mongodb://htcvtc59:GTj5xX7Z@ds163796.mlab.com:63796/bitweb"

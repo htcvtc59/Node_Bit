@@ -1,0 +1,3 @@
+mongodump -d bitdb -o "C:\Program Files\MongoDB\Server\3.6\bin\export"
+
+mongorestore -h ds163796.mlab.com:63796 -d bitweb -u htcvtc59 -p GTj5xX7Z "C:\Program Files\MongoDB\Server\3.6\bin\export\bitdb"
